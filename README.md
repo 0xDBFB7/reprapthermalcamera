@@ -6,6 +6,6 @@ Just mount a mlx90621 (the low-FOV one, model -XXB) to the extruder, put your bo
 
 ![Got you now, shorted board!](/demo.png?raw=true)
 
-It actually gives pretty decent results; in one pass, we found the short on this board. The resolution is limited by the Z height and stuff but was 100x100 for this run, so about 30ppi.
+It actually gives pretty decent results; in one pass, we found the short on this board. The resolution is limited by the Z height and stuff but was 100x100 for this run, so about 30ppi. There's a bit of raster artifacting, but if you make sure your part is secure on the bed, it's fine.
 
 This was a quick weekend project based on https://github.com/longjos/MLX90621_Arduino_Camera (thanks). Public Domain. Hopefully someone'll find it useful.
